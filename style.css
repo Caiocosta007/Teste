@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap');
+
+
+body {
+  background-color: #eebcbc;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ff3366;
+  font-family: "Loved by the King", cursive;
+  font-size: 3.5rem
+}
+
+a {
+  text-decoration: none;
+}
+
+p#resposta{
+  font-family: "Edu VIC WA NT Hand Pre", cursive;
+  display: none; 
+  font-size: 40px
+}
+
+span.button{
+  color: #790321c4;
+  font-size: 1.3rem;
+  font-family: "Edu VIC WA NT Hand Pre", cursive;
+}
+
+button.yes{
+  border: white solid 1px;
+  border-radius: 20px;
+  height: 4rem;
+  width: 6rem;
+  background-color: #f09595;
+  margin-left: -12rem;
+}
+
+button#no{
+  border: white solid 1px;
+  border-radius: 20px;
+  height: 4rem;
+  width: 6rem;
+  background-color: #f09595;
+  position: fixed;
+  left: 55%;
+}
+
